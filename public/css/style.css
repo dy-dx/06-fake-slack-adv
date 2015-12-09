@@ -1,0 +1,52 @@
+html, body ul, li, div {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    font-family: courier;
+}
+
+#container {
+    margin: 20px 20px 0 20px;
+}
+
+
+input {
+    font-size: 16px;
+}
+
+.messages {
+    margin-bottom: 20px;
+}
+
+li {
+    list-style-type: none;
+    border: 1px solid black;
+    border-width: 0 1px 1px 1px;
+    padding: 10px;
+    background-color: beige;
+}
+li:first-child {
+    border-width: 1px;
+}
+li:nth-child(even) {
+    background-color: white;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.timestamp {
+    font-family: courier;
+    color: gray;
+    margin-right: 6px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    background-image: url('https://www.placecage.com/100/100');
+}
